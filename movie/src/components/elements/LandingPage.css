@@ -1,0 +1,50 @@
+/* introl */
+.myBG {
+    height: 100vh; /* satu layar penuh */
+    background: url("../../assets/Main.jpg");
+    background-size: cover; /* semua akan ke penuhi*/
+}
+
+.intro { /* bisa juga pake css di clasname bootsrap */
+    height: 300px;
+    display: flex;
+    justify-content: end;
+    align-items: end;
+}
+
+.title {
+    font-size: 3rem;
+    font-weight: 800;
+    line-height: 1;
+    text-shadow: 3px 3px black;
+    letter-spacing: 4px;
+}
+
+/* trending */
+.trending {
+    height: auto;
+    background: url("../../assets/film4.jpg");
+    background-size: cover; /* semua akan ke penuhi*/
+}
+
+/* superhero */
+.superhero {
+    height: auto;
+    background: url("../../assets/Naruto.jpg");
+    background-size: cover; /* semua akan ke penuhi*/
+}
+
+.movieImage {
+    height: auto;
+    margin: 1px;
+    padding: 3px;
+    /* background-color: black; */
+}
+
+.movieWrapper {
+
+}
+
+.images {
+    height: 500px;
+}
